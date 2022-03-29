@@ -209,4 +209,8 @@ const addRole = () => {
   });
 };
 
+function quit() {
+  process.exit();
+}
+
 mainMenu();
